@@ -1,0 +1,203 @@
+;=====================================================
+;
+;   To learn more about how to configure Polybar
+;   go to https://github.com/jaagr/polybar
+;
+;   The README contains alot of information
+;
+;=====================================================
+
+[colors]
+background = #1D2021
+background-alt = #1D2021
+foreground = #C7CCD1
+foreground-alt = #C7CCD1
+primary = ${xrdb:color3}
+secondary = ${xrdb:color3}
+alert = ${xrdb:color6}
+
+[global/wm]
+margin-top = 5
+margin-bottom = 5
+
+[bar/top]
+;monitor = ${env:MONITOR:HDMI-1}
+width = 100%
+height = 22
+offset-x = 0
+offset-y = 0
+
+;background = ${xrdb:color9}
+background = ${xrdb:color0}
+foreground = ${xrdb:color7}
+
+overline-size = 2
+overline-color = #f00
+underline-size = 2
+underline-color = #00f
+
+border-bottom-size = 2
+border-bottom-color = #333
+
+padding-left = 0
+padding-right = 2
+module-margin-left = 1
+module-margin-right = 2
+
+font-0 = Overpass:pixelsize=11
+font-1 = unifont:fontformat=truetype:size=6:heavy;-2
+font-2 = Overpass:pixelsize=10
+
+modules-left = i3 
+modules-center = 
+modules-right = volume memory cpu date powermenu
+
+;tray-position = right
+;tray-padding = 2
+;tray-transparent = true
+;tray-background = #0063ff
+
+;wm-restack = bspwm
+;wm-restack = i3
+
+;override-redirect = true
+
+scroll-up = i3wm-wsnext
+scroll-down = i3wm-wsprev
+
+[module/bspwm]
+	type = internal/bspwm
+
+	label-focused = %index%
+	label-focused-background = ${colors.background-alt}
+	label-focused-underline= ${colors.primary}
+	label-focused-padding = 2
+
+	label-occupied = %index%
+	label-occupied-padding = 2
+
+	label-urgent = %index%!
+	label-urgent-background = ${colors.alert}
+	label-urgent-padding = 2
+
+	label-empty = %index%
+	label-empty-foreground = ${colors.foreground-alt}
+	label-empty-padding = 2
+
+[module/i3]
+	type = internal/i3
+	format = <label-state> <label-mode>
+	index-sort = true
+	wrapping-scroll = false
+
+	label-mode-padding = 2
+	label-mode-foreground = #000
+	label-mode-background = ${colors.primary}
+
+	label-focused = %index%
+	label-focused-background = ${module/bspwm.label-focused-background}
+	label-focused-underline = ${module/bspwm.label-focused-underline}
+	label-focused-padding = ${module/bspwm.label-focused-padding}
+
+	label-unfocused = %index%
+	label-unfocused-padding = ${module/bspwm.label-occupied-padding}
+
+	label-urgent = %index%!
+	label-urgent-background = ${module/bspwm.label-urgent-background}
+	label-urgent-padding = ${module/bspwm.label-urgent-padding}
+
+	label-visible = %index%
+	label-visible-background = ${self.label-focused-background}
+	label-visible-underline = ${self.label-focused-underline}
+	label-visible-padding = ${self.label-focused-padding}
+
+
+[module/volume]
+	type = internal/volume
+
+	format-volume = <label-volume> <bar-volume>
+	label-volume = VOL
+	label-volume-foreground = ${root.foreground}
+
+	format-muted-prefix = " "
+	format-muted-foreground = ${colors.foreground-alt}
+	label-muted = sound muted
+
+	bar-volume-width = 10
+	bar-volume-foreground-0 = #93acac
+	bar-volume-foreground-1 = #93acac
+	bar-volume-foreground-2 = #93acac
+	bar-volume-foreground-3 = #93acac
+	bar-volume-foreground-4 = #93acac
+	bar-volume-foreground-5 = #f5a70a
+	bar-volume-foreground-6 = #ff5555
+	bar-volume-gradient = false
+	bar-volume-indicator = │
+	bar-volume-indicator-font = 2
+	bar-volume-indicator-foreground = #ff
+	bar-volume-fill = ─
+	bar-volume-fill-font = 2
+	bar-volume-empty = ─
+	bar-volume-empty-font = 2
+	bar-volume-empty-foreground = ${colors.foreground-alt}
+
+[module/memory]
+	type = internal/memory
+	interval = 2
+	format-prefix = " "
+	format-prefix-foreground = ${colors.foreground-alt}
+	format-underline = #1D2021
+	label = %percentage_used%%
+
+[module/cpu]
+	type = internal/cpu
+	interval = 2
+	format-prefix = " "
+	format-prefix-foreground = ${colors.foreground-alt}
+	format-underline = #1D2021
+	label = %percentage%%
+
+[module/date]
+	type = internal/date
+	interval = 5
+
+	date =
+	date-alt = " %Y-%m-%d"
+
+	time = %H:%M
+	time-alt = %H:%M:%S
+
+	format-prefix = 
+	format-prefix-foreground = ${colors.foreground-alt}
+	format-underline = #1D2021
+
+	label = %date% %time%
+
+[module/powermenu]
+	type = custom/menu
+
+	format-spacing = 1
+
+	label-open =  power
+	label-open-foreground = ${colors.secondary}
+	label-close =  cancel
+	label-close-foreground = ${colors.secondary}
+	label-separator = |
+	label-separator-foreground = ${colors.foreground-alt}
+
+	menu-0-0 = reboot
+	menu-0-0-exec = menu-open-1
+	menu-0-1 = power off
+	menu-0-1-exec = menu-open-2
+
+	menu-1-0 = cancel
+	menu-1-0-exec = menu-open-0
+	menu-1-1 = reboot
+	menu-1-1-exec = sudo reboot
+
+	menu-2-0 = power off
+	menu-2-0-exec = sudo poweroff
+	menu-2-1 = cancel
+	menu-2-1-exec = menu-open-0
+
+; vim:ft=dosini

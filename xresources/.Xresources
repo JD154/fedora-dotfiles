@@ -1,0 +1,56 @@
+!!--[Font Antialiasing]------------------------------------------------
+
+Xft.autohint: 0
+Xft.antialias: 1
+Xft.hinting: true
+Xft.hintstyle: hintslight
+Xft.dpi: 96
+Xft.rgba: rgb
+Xft.lcdfilter: lcddefault
+
+!!--[Colors]-----------------------------------------------------------
+
+#define 	dark_grey 		#1d2021
+#define 	dark_blue 		#40506b
+#define 	dark_purple 	#404052
+#define 	light_pink 		#9e4c55
+#define 	light_red 		#6c455a
+#define 	light_green 	#93acac
+#define 	light_yellow 	#f8b195
+#define 	ice_blue 		#c7ccd1
+
+*.background: dark_grey
+*.foreground: ice_blue 
+
+*.color0: dark_grey
+*.color8: dark_grey
+	
+*.color1: dark_blue
+*.color9: dark_blue
+
+*.color2: dark_purple
+*.color10: dark_purple
+
+*.color3: light_pink
+*.color11: light_pink
+
+*.color4: light_red
+*.color12: light_red
+
+*.color5: light_green
+*.color13: light_green
+
+*.color6: light_yellow
+*.color14: light_yellow
+
+*.color7: ice_blue
+*.color15: ice_blue
+
+!!--[Rofi]-------------------------------------------------------------
+
+rofi.font: overpass 20
+rofi.opacity: 100
+rofi.color-window: dark_grey, light_pink, dark_purple
+rofi.color-normal: dark_grey, dark_purple, dark_grey, dark_grey, light_pink
+rofi.lines: 5
+rofi.bw: 0
