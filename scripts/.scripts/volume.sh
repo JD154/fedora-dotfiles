@@ -2,9 +2,7 @@
 #
 # Control pulseaudio and show notification
 #
-# Created by https://github.com/JD154
-#
-# You need to symlink ~/.scripts/notify.sh 
+# Created by https://github.com/JD154 
 #
 # More info: https://github.com/vlevit/notify-send.sh
 
@@ -21,6 +19,7 @@ elif [[ $1 = "down" ]]; then
 fi
 
 # Use patched notify-send (libnotify) to identify and replace notification
-notify.sh --expire-time=20 --replace=16 "volume: $(amixer get Master | tail -n1 | awk '{ print $5 }' | tr -d [])"
+
+~/.scripts/notify.sh --expire-time=20 --replace=16 "volume: $(amixer get Master | tail -n1 | awk '{ print $5 }' | tr -d [])"
 
 
