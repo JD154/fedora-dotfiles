@@ -2,6 +2,8 @@
   inactive_color_offset = 1.0
   title_font = DejaVu Sans Mono 10
   title_receive_bg_color = "#0a1b27"
+  title_receive_fg_color = "#c7ccd1"
+  title_transmit_fg_color = "#c7ccd1"
   title_use_system_font = False
 [keybindings]
 [layouts]
