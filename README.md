@@ -1,7 +1,7 @@
 # JD154's Dotfiles
 ## i3-gaps configuration 
 
-Principal programs used:
+### Principal programs used:
 
 - i3-gaps.
 - Polybar.
@@ -13,7 +13,7 @@ Principal programs used:
 - Cava.
 - Gvim.
 
-Secondary programs: 
+### Secondary programs: 
 
 - xrandr to set resolution.
 - Feh to set wallpaper.
