@@ -29,7 +29,7 @@ Use [stow](http://brandon.invergo.net/news/2012-05-26-using-gnu-stow-to-manage-y
 https://github.com/JD154/fedora-dotfiles.git
 ```
 
-2. Change name to dotfiles and cd inside
+2. Change name to dotfiles and cd inside:
 
 ```
 mv fedora-dotfiles dotfiles
@@ -37,7 +37,7 @@ mv fedora-dotfiles dotfiles
 cd dotfiles
 ```
 
-3. Install dotfiles using stow
+3. Install dotfiles using stow:
 
 ```sh
 stow i3
@@ -73,7 +73,7 @@ stow -D i3
 
 - [/u/astroculv](https://www.reddit.com/r/EarthPorn/comments/5qtv0w/funny_how_we_gravitate_towards_the_things_that/) for the amazing St Helens Milky Way photo
 
-- [dylanaraps](https://github.com/dylanaraps/) for inspiration in Dunst scripts and compton configuration
+- [dylanaraps](https://github.com/dylanaraps/) for inspiration in Dunst scripts, compton configuration and cool way title bars
 
 - [/u/usayplz](https://www.reddit.com/r/unixporn/comments/4p5aom/rofi_clipboard_manager/) for rofi clipboard manager script
 
