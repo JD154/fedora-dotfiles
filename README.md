@@ -26,5 +26,12 @@ Use [stow](http://brandon.invergo.net/news/2012-05-26-using-gnu-stow-to-manage-y
 
 1. Clone the repo:
 
->https://github.com/JD154/fedora-dotfiles.git
+```https://github.com/JD154/fedora-dotfiles.git
+```
 
+2. Change name to dotfiles:
+
+```mv fedora-dotfiles dotfiles
+```
+
+3.
