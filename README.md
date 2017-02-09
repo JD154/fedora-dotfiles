@@ -22,7 +22,7 @@ Secondary programs:
 
 ## How to install
 
-Use [stow](http://brandon.invergo.net/news/2012-05-26-using-gnu-stow-to-manage-your-dotfiles.html) to install easly dotfiles.
+Use [stow](http://brandon.invergo.net/news/2012-05-26-using-gnu-stow-to-manage-your-dotfiles.html) to easily install dotfiles.
 
 1. Clone the repo:
 
@@ -40,7 +40,7 @@ cd dotfiles
 
 3. Install dotfiles using stow
 
-```
+```sh
 stow i3
 
 stow polybar
@@ -65,7 +65,7 @@ stow cmus
 
 stow gvim
 
-# If you want to unistall come configuration use -D:
+# If you want to unistall some configuration use -D:
 
 stow -D i3
 ```
