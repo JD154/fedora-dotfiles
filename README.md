@@ -69,3 +69,9 @@ stow gvim
 stow -D i3
 ```
 
+### Credits:
+
+- /u/astroculv for the amazing St Helens Milky Way photo
+
+- [dylanaraps](https://github.com/dylanaraps/) for inspiration in Dunst scripts
+
