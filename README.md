@@ -71,7 +71,10 @@ stow -D i3
 
 ### Credits:
 
-- /u/astroculv for the amazing St Helens Milky Way photo
+- [/u/astroculv](https://www.reddit.com/r/EarthPorn/comments/5qtv0w/funny_how_we_gravitate_towards_the_things_that/) for the amazing St Helens Milky Way photo
 
-- [dylanaraps](https://github.com/dylanaraps/) for inspiration in Dunst scripts
+- [dylanaraps](https://github.com/dylanaraps/) for inspiration in Dunst scripts and compton configuration
 
+- [/u/usayplz](https://www.reddit.com/r/unixporn/comments/4p5aom/rofi_clipboard_manager/) for rofi clipboard manager script
+
+- [Travis Poppe](https://github.com/cmus/cmus/wiki/status_diplay_notify_send.py) for cmus song status script
