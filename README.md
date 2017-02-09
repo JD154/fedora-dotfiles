@@ -1,2 +1,3 @@
-i3-gaps configuration 
+# JD154's Dotfiles
+## i3-gaps configuration 
 
