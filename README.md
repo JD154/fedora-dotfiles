@@ -20,6 +20,7 @@
 - Notify-send to send desktop notifications.
 - Pulseaudio but I think you can use Alsa.
 - Python to some scripts inside.
+- Fish shell with oh-my-fish extension
 
 ## How to install
 
