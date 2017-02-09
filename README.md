@@ -47,6 +47,8 @@ stow i3
 
 stow polybar
 
+stow fonts
+
 stow compton
 
 stow dunst
