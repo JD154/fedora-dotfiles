@@ -215,7 +215,7 @@ for_window [window_type="dialog"] floating enable
 for_window [window_type="menu"] floating enable
 
 # Screenshot script:
-bindsym Print exec ~/.scripts/screenshot.sh 
+bindsym Print exec --no-startup-id ~/.scripts/screenshot.sh 
 
 # Pulse Audio controls
 bindsym XF86AudioRaiseVolume exec --no-startup-id ~/.scripts/volume.sh up 
