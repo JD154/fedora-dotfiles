@@ -4,9 +4,8 @@ exec --no-startup-id ~/bin/clean_tmp
 
 exec --no-startup-id xrandr --output Virtual1 --mode 1440x900
 
-exec_always --no-startup-id feh --bg-scale ~/Pictures/Wallpapers/stars.png
+exec_always --no-startup-id feh --bg-scale ~/Pictures/Wallpapers/St_Helens.png
 #exec_always --no-startup-id feh --bg-scale ~/Pictures/Wallpapers/Lake_Valley.png
-#exec_always --no-startup-id feh --bg-scale ~/Pictures/Wallpapers/Scotland.png
 
 exec_always --no-startup-id killall dunst
 
