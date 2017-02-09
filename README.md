@@ -11,6 +11,7 @@
 - Cmus.
 - Cava.
 - Gvim.
+- Ranger.
 
 ### Secondary programs: 
 
@@ -60,6 +61,8 @@ stow scripts
 stow xresources
 
 stow terminator
+
+stow ranger
 
 stow wallpaper
 
