@@ -90,4 +90,6 @@ stow -D i3
 
 ### Screenshot:
 
-![scrot](http://i.imgur.com/q7hrl1A.jpg)
+[album](https://imgur.com/a/K9K2y#cENc7Ro)
+
+![scrot](https://i.imgur.com/sv5NbXx.jpg)
