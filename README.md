@@ -75,7 +75,7 @@ stow -D i3
 
 - [/u/usayplz](https://www.reddit.com/r/unixporn/comments/4p5aom/rofi_clipboard_manager/) for rofi clipboard manager script.
 
-- [dylanaraps](https://github.com/dylanaraps/) for inspiration in Dunst scripts, compton configuration and cool way title bars.
+- [dylanaraps](https://github.com/dylanaraps/) for inspiration in dunst scripts, compton configuration and cool way i3 title bars.
 
 - [Travis Poppe](https://github.com/cmus/cmus/wiki/status_diplay_notify_send.py) for cmus song status script.
 
