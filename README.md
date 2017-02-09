@@ -6,9 +6,9 @@ Principal programs used:
 - i3-gaps.
 - Polybar.
 - Compton.
+- Dunst.
 - Terminator.
 - Rofi.
-- Dunst.
 - Cmus.
 - Cava.
 - Gvim.
@@ -32,6 +32,11 @@ https://github.com/JD154/fedora-dotfiles.git
 
 2. Change name to dotfiles and cd inside
 
+```
+mv fedora-dotfiles dotfiles
+
+cd dotfiles
+```
 
 3. Install dotfiles using stow
 
@@ -59,5 +64,9 @@ stow wallpaper
 stow cmus
 
 stow gvim
+
+# If you want to unistall come configuration use -D:
+
+stow -D i3
 ```
 
