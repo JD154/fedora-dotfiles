@@ -69,7 +69,7 @@ stow gvim
 stow -D i3
 ```
 
-### Screeshot:
+### Screenshot:
 
 ![scrot](http://i.imgur.com/q7hrl1A.jpg)
 
