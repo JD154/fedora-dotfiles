@@ -50,8 +50,6 @@ stow compton
 
 stow dunst
 
-stow rofi
-
 stow mclip
 
 stow scripts
