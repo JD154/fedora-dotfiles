@@ -1,5 +1,7 @@
 # JD154's Dotfiles
 
+This is the evolution from my first rice for linux, learned a lot and enjoyed making it.
+
 ### Principal programs used:
 
 - i3-gaps.
@@ -27,13 +29,13 @@
 
 Use [stow](http://brandon.invergo.net/news/2012-05-26-using-gnu-stow-to-manage-your-dotfiles.html) to easily install dotfiles.
 
-1. Clone the repo:
+* Clone the repo:
 
 ```
 https://github.com/JD154/fedora-dotfiles.git
 ```
 
-2. Change name to dotfiles and cd inside:
+* Change name to dotfiles and cd inside:
 
 ```
 mv fedora-dotfiles dotfiles
@@ -41,7 +43,7 @@ mv fedora-dotfiles dotfiles
 cd dotfiles
 ```
 
-3. Install dotfiles using stow:
+* Install dotfiles using stow:
 
 ```sh
 stow i3
