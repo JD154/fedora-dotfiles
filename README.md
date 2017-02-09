@@ -16,6 +16,7 @@
 
 - Xrandr to set resolution.
 - Feh to set wallpaper.
+- Scrot to take screenshots.
 - Pulseaudio but I think you can use Alsa.
 - Python to some scripts inside.
 
