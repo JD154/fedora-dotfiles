@@ -14,7 +14,7 @@
 
 ### Secondary programs: 
 
-- xrandr to set resolution.
+- Xrandr to set resolution.
 - Feh to set wallpaper.
 - Pulseaudio but I think you can use Alsa.
 - Python to some scripts inside.
