@@ -1,7 +1,9 @@
 #!/usr/bin/env bash
 #
+# Notify when the free ram memory is under certain values
 #
-#
+# Created by https://github.com/JD154 
+
 
 while [[ 1 ]]; do
 	mem=`free -m | awk 'NR==2{printf "%d", $3*100/$2 }'`
