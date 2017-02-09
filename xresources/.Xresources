@@ -49,8 +49,7 @@ Xft.lcdfilter: lcddefault
 !!--[Rofi]-------------------------------------------------------------
 
 rofi.font: overpass 20
-rofi.opacity: 100
 rofi.color-window: dark_grey, light_pink, dark_purple
-rofi.color-normal: dark_grey, dark_purple, dark_grey, dark_grey, light_pink
-rofi.lines: 5
+rofi.color-normal: dark_grey, dark_purple, dark_grey, light_pink, dark_purple
+rofi.lines: 3
 rofi.bw: 0
