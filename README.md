@@ -17,7 +17,7 @@
 - Xrandr to set resolution.
 - Feh to set wallpaper.
 - Scrot to take screenshots.
-- Notify-send to send desktop notifications
+- Notify-send to send desktop notifications.
 - Pulseaudio but I think you can use Alsa.
 - Python to some scripts inside.
 
@@ -68,19 +68,18 @@ stow gvim
 
 stow -D i3
 ```
-
-### Screenshot:
-
-![scrot](http://i.imgur.com/q7hrl1A.jpg)
-
 ### Credits:
 
 - [/u/astroculv](https://www.reddit.com/r/EarthPorn/comments/5qtv0w/funny_how_we_gravitate_towards_the_things_that/) for the amazing St Helens Milky Way photo.
 
-- [dylanaraps](https://github.com/dylanaraps/) for inspiration in Dunst scripts, compton configuration and cool way title bars.
-
 - [/u/usayplz](https://www.reddit.com/r/unixporn/comments/4p5aom/rofi_clipboard_manager/) for rofi clipboard manager script.
+
+- [dylanaraps](https://github.com/dylanaraps/) for inspiration in Dunst scripts, compton configuration and cool way title bars.
 
 - [Travis Poppe](https://github.com/cmus/cmus/wiki/status_diplay_notify_send.py) for cmus song status script.
 
 - [vlevit](https://github.com/vlevit/notify-send.sh) for patched notify-send script.
+
+### Screenshot:
+
+![scrot](http://i.imgur.com/q7hrl1A.jpg)
