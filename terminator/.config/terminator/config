@@ -1,6 +1,6 @@
 [global_config]
   inactive_color_offset = 1.0
-  title_font = DejaVu Sans Mono 10
+  title_font = Overpass Mono 10
   title_receive_bg_color = "#0a1b27"
   title_receive_fg_color = "#c7ccd1"
   title_transmit_fg_color = "#c7ccd1"
@@ -23,7 +23,7 @@
     cursor_color = "#9e4c55"
     cursor_shape = underline
     exit_action = hold
-    font = DejaVu Sans Mono 10
+    font = Overpass Mono 10
     foreground_color = "#c7ccd1"
     icon_bell = False
     palette = "#2e2f38:#404052:#40506b:#6c455a:#9e4c55:#93acac:#f8b195:#c7ccd1:#2e2f38:#404052:#40506b:#6c455a:#9e4c55:#93acac:#f8b195:#c7ccd1"
